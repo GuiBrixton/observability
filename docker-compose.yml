@@ -41,7 +41,7 @@ services:
     pid: host
     volumes:
     - '/:/host:ro,rslave'
-    #  ##### linux-Alpine-cloud
+    #  ##### linux-Alpine-cloud con https://labs.play-with-docker.com/ 
     # command:
     # - '--path.procfs=/host/proc'
     # - '--path.rootfs=/rootfs'
